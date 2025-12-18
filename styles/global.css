@@ -1,0 +1,53 @@
+:root {
+  --pink-light: #c59dd2;
+  --pink-base: 9547a5;
+  --pink-dark: #7d298a;
+  --pink-low: 3f0f41;
+
+  --blue-light: #73b6d2;
+  --blue-base: #358bb9;
+  --blue-mid: #2374a4;
+  --blue-dark: #144a72;
+  --blue-low: #08233c;
+
+  --shape-stroke: #002347;
+  --shape-hover: #001933;
+  --shape-base: #000f1f;
+  --shape-background: #00050a;
+
+  --text-title: #f8fbfb;
+  --text-body: #ede7e9;
+  --text-label: #bac6c9;
+
+  --title-lg: 48px/auto 700 0%;
+  --title-md: 40px/auto 700 0%;
+  --title-sm: 32px/auto 700 0%;
+  --title-xs: 16px/auto% 700 0%;
+  --title-lg: 48px/auto 700 0%;
+  --subtitle: 32px/2 500 0%;
+
+  --body-lg: 20px/1.4 700 0%;
+  --body-md: 16px/1.4 700 0%;
+  --body-sm: 14px/1.4 700 0%;
+  --body-xs: 12px/1.4 700 0%;
+
+  --button: 14px/auto 700 0%;
+  --link: 14px/auto 500 0%;
+  --tag: 10px/auto 700 0%;
+}
+
+body {
+  font-family: "Raleway", "sans-serif";
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  border: none;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  list-style: none;
+}
