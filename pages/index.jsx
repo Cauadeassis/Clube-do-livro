@@ -1,8 +1,10 @@
 import Head from "next/head";
-import Hero from "../components/hero/hero.jsx"
-import FirstSection from "../components/firstSection/firstSection.jsx"
-import SecondSection from "../components/secondSection/secondSection.jsx"
-import Footer from "../components/footer/footer.jsx"
+import Hero from "../components/hero/hero.jsx";
+import FirstSection from "../components/firstSection/firstSection.jsx";
+import SecondSection from "../components/secondSection/secondSection.jsx";
+import Footer from "../components/footer/footer.jsx";
+
+import styles from "../styles/index.module.css";
 export default function InitialPage() {
   return (
     <>
@@ -19,12 +21,14 @@ export default function InitialPage() {
           rel="stylesheet"
         />
       </Head>
-      <main>
-        <Hero />
-        <FirstSection />
-        <SecondSection />
-      </main>
-      <Footer />
+      <div className={styles.body}>
+        <main>
+          <Hero />
+          <FirstSection />
+          <SecondSection />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 }
