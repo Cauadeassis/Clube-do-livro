@@ -9,6 +9,12 @@ export default function InitialPage() {
   return (
     <>
       <Head>
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          sizes="32x32"
+          href="/icons/favicon.svg"
+        />
         <title>Clube do Livro</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

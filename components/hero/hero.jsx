@@ -26,11 +26,11 @@ export default function Hero() {
           <img src="/images/crystal-ball.png" alt="Crystal ball" />
           <p>
             <span>
-              Receba todo mês um <strong>livro surpresa</strong> {" "}
+              Receba todo mês um <strong>livro surpresa</strong>{" "}
             </span>
             <span>
               do seu tema favorito, acompanhado de{" "}
-              <strong>brindes exclusivos</strong> {" "}
+              <strong>brindes exclusivos</strong>{" "}
             </span>
             <span>
               que tornarão a sua experiência literária{" "}

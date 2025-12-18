@@ -70,10 +70,9 @@
       max-width: 600px;
       color: var(--text-body);
 
-
       & span {
         & strong {
-          color: var(--blue-light)
+          color: var(--blue-light);
         }
       }
     }
@@ -83,9 +82,9 @@
       height: auto;
     }
 
-    &>img {
+    & > img {
       justify-self: center;
-      transform: rotate(15deg)
+      transform: rotate(15deg);
     }
 
     & div {
@@ -93,11 +92,11 @@
       display: flex;
       justify-content: space-between;
 
-      &> :nth-child(1) {
+      & > :nth-child(1) {
         transform: rotate(90deg);
       }
 
-      &> :nth-child(2) {
+      & > :nth-child(2) {
         transform: rotate(-45deg);
       }
     }
