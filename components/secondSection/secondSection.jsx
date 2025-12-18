@@ -92,5 +92,5 @@ export default function SecondSection() {
         </div>
       </section>
     </>
-  )
+  );
 }

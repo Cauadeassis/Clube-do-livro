@@ -4,7 +4,10 @@ export default function Footer() {
       <footer>
         {/*background Image = /images/footer-background.png*/}
         <div>
-          <img src="/vectors/logo-horizontal.svg" alt="Logo do Clube do Livro" />
+          <img
+            src="/vectors/logo-horizontal.svg"
+            alt="Logo do Clube do Livro"
+          />
           <div>
             <img src="/vectors/instagram.svg" alt="Logo do Instagram" />
             <img src="/vectors/facebook.svg" alt="Logo do Facebook" />
@@ -34,5 +37,5 @@ export default function Footer() {
         </div>
       </footer>
     </>
-  )
+  );
 }
