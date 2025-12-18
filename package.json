@@ -1,25 +1,27 @@
 {
-    "name": "clube-do-livro",
-    "version": "1.0.0",
-    "description": "Página teste, apenas para fins de design e layout, sem utilidades back-end.",
-    "homepage": "https://github.com/Cauadeassis/Clube-do-livro#readme",
-    "bugs": {
-        "url": "https://github.com/Cauadeassis/Clube-do-livro/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Cauadeassis/Clube-do-livro.git"
-    },
-    "license": "MIT",
-    "author": "",
-    "type": "commonjs",
-    "main": "index.js",
-    "scripts": {
-        "dev": "next dev"
-    },
-    "dependencies": {
-        "next": "^16.0.10",
-        "react": "^19.2.3",
-        "react-dom": "^19.2.3"
-    }
+  "name": "clube-do-livro",
+  "version": "1.0.0",
+  "description": "Página teste, apenas para fins de design e layout, sem utilidades back-end.",
+  "homepage": "https://github.com/Cauadeassis/Clube-do-livro#readme",
+  "bugs": {
+    "url": "https://github.com/Cauadeassis/Clube-do-livro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cauadeassis/Clube-do-livro.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "dependencies": {
+    "next": "^16.0.10",
+    "prettier": "^3.7.4",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
 }
