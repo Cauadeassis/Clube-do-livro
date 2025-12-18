@@ -1,35 +1,48 @@
+import styles from "./hero.module.css";
+
 export default function Hero() {
   return (
     <>
-      <hero>
-        {/*background Image = /images/hero-background.png*/}
-        <nav>
-          <img
-            src="/vectors/logo-horizontal.svg"
-            alt="Logo do Clube do Livro"
-          />
-          <a>
-            <span>Assinar</span>
-          </a>
-        </nav>
-        <div>
-          <h1>Desperte a sua imaginação e explore novos mundos</h1>
-          <p>
-            Junte-se ao clube de assinatura Encantos Literários e descubra
-            maravilhas e aventuras a cada página{" "}
-          </p>
+      <section className={styles.hero}>
+        <div className={styles.firstSectionContainer}>
+          <nav>
+            <img
+              src="/vectors/logo-horizontal.svg"
+              alt="Logo do Clube do Livro"
+            />
+            <a>
+              <span>Assinar</span>
+            </a>
+          </nav>
+          <div className={styles.title}>
+            <h1>Desperte a sua imaginação e explore novos mundos</h1>
+            <p>
+              Junte-se ao clube de assinatura Encantos Literários e descubra
+              maravilhas e aventuras a cada página
+            </p>
+          </div>
         </div>
-        <section>
-          <img src="/icons/crystal-ball.png" alt="Crystal ball" />
-          <img src="/icons/ouija.png" alt="Ouija board" />
-          <img src="/icons/spellbook.png" alt="Spellbook" />
+        <div className={styles.secondSectionContainer}>
+          <img src="/images/crystal-ball.png" alt="Crystal ball" />
           <p>
-            Receba todo mês um <span>livro surpresa</span> do seu tema
-            favorito, acompanhado de <span>brindes exclusivos</span> que
-            tornarão a sua experiência literária <span>encantadora</span>
+            <span>
+              Receba todo mês um <strong>livro surpresa</strong> {" "}
+            </span>
+            <span>
+              do seu tema favorito, acompanhado de{" "}
+              <strong>brindes exclusivos</strong> {" "}
+            </span>
+            <span>
+              que tornarão a sua experiência literária{" "}
+              <strong>encantadora</strong>
+            </span>
           </p>
-        </section>
-      </hero>
+          <div>
+            <img src="/images/ouija.png" alt="Ouija board" />
+            <img src="/images/spellbook.png" alt="Spellbook" />
+          </div>
+        </div>
+      </section>
     </>
-  )
+  );
 }
