@@ -36,10 +36,6 @@
   --tag: 10px/auto 700 0%;
 }
 
-body {
-  font-family: "Raleway", "sans-serif";
-}
-
 *,
 *::before,
 *::after {
@@ -50,4 +46,5 @@ body {
   text-decoration: none;
   color: inherit;
   list-style: none;
+  font-family: "Raleway", "sans-serif";
 }
